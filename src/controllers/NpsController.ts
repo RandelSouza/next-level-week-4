@@ -1,0 +1,6 @@
+class NpsController{
+
+        
+}
+
+export { NpsController };
