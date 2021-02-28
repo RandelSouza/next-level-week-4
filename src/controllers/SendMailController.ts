@@ -1,8 +1,10 @@
 import { Request, Response } from "express";
+import { resolve } from 'path';
 import { getCustomRepository } from 'typeorm';
 import { SurveysRepository } from '../repositories/SurveysRepository';
 import { SurveysUsersRepository } from '../repositories/SurveysUsersRepository';
 import { UsersRepository } from '../repositories/UsersRepository';
+import SendMailService from "../services/SendMailService";
 
 class SendMailController {
     async execute(request: Request, response: Response){
@@ -12,28 +14,37 @@ class SendMailController {
         const surveysRepository = getCustomRepository(SurveysRepository);
         const surveysUsersRepository = getCustomRepository(SurveysUsersRepository);
         
-        const userAlreadyExist = await usersRepository.findOne({ email });
+        const user = await usersRepository.findOne({ email });
 
-        if(!userAlreadyExist){
+        if(!user){
             return response.status(400).json({
                 message_error: "User does not exists!"
             });
         }
         
-        const surveyAlreadyExist = await surveysRepository.findOne( { id: survey_id });
+        const survey = await surveysRepository.findOne( { id: survey_id });
 
-        if(!surveyAlreadyExist){
+        if(!survey){
             return response.status(400).json({
                 message_error: "Survey does not exists!"
             });
         }
         
         const surveyUser = surveysUsersRepository.create({
-            user_id:  userAlreadyExist.id,
+            user_id:  user.id,
             survey_id
         });
 
         await surveysUsersRepository.save(surveyUser);
+        
+        const npsPath = resolve(__dirname, "../", "views", "emails", "nbsMail.hbs");
+
+        const variables = {
+            name: user.name,
+            title: survey.title,
+            description: survey.description
+        }
+        await SendMailService.execute(email, survey.title, npsPath, variables);
 
         return response.status(201).json(surveyUser);
 
