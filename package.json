@@ -4,16 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "NODE_ENV=test jest",
+    "test": "NODE_ENV=test jest -i --detectOpenHandles",
     "dev": "ts-node-dev src/server.ts",
-    "typeorm": "ts-node ./node_modules/typeorm/cli.js",
-    "posttest": "rm ./src/database/database.test.sqlite"
+    "typeorm": "ts-node ./node_modules/typeorm/cli.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
     "handlebars": "^4.7.7",
     "nodemailer": "^6.5.0",
     "reflect-metadata": "^0.1.13",
