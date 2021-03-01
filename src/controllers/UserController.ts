@@ -11,13 +11,7 @@ class UserController {
             name: yup.string().required(),
             email: yup.string().email().required()
 
-        });
-
-        // if(!(await schema.isValid(request.body))){
-        //     return response.status(400).json({
-        //         message_error: "Validation Failed!"
-        //     });
-        // }
+        });      
 
         try{
             
