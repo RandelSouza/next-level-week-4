@@ -5,7 +5,7 @@
 
 ___
 
-<div align="center">
+<p align="center">
 <img alt="GitHub" src="https://img.shields.io/github/license/randelsouza/next-level-week-4?style=for-the-badge">
 
 <img alt="GitHub package.json dependency version (prod)" src="https://img.shields.io/github/package-json/dependency-version/randelsouza/next-level-week-4/express?style=for-the-badge">
@@ -25,4 +25,4 @@ ___
 <img alt="GitHub package.json dependency version (prod)" src="https://img.shields.io/github/package-json/dependency-version/randelsouza/next-level-week-4/uuid?style=for-the-badge">
 
 <img alt="GitHub package.json dependency version (prod)" src="https://img.shields.io/github/package-json/dependency-version/randelsouza/next-level-week-4/yup?style=for-the-badge">
-</div>
+</p>
