@@ -6,6 +6,7 @@
 ___
 
 <p align="center">
+    <h2>:file_folder: Dependências</h2>
 
 <a href="https://github.com/RandelSouza/next-level-week-4/blob/master/LICENSE">
     <img alt="GitHub LICENSE" src="https://img.shields.io/github/license/randelsouza/next-level-week-4?style=for-the-badge">
