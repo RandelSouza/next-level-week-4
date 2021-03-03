@@ -67,6 +67,6 @@ ___
 ## :nut_and_bolt: Funcionalidades
 ## :computer: Testando a API
 ## :arrow_forward: Como Rodar
-## Considerações Finais
+## :eight_spoked_asterisk: Considerações Finais
 ## :mag_right: Autor
 ## :copyright: Licença
