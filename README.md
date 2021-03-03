@@ -52,15 +52,21 @@ ___
 ---
 
 <p align="center">
- • <a href="#-descricao">Descrição do Projeto</a> •
- <a href="#-funcionalidades">Funcionalidades</a> •
- <a href="#-testando-a-api">Testando a API</a> • 
- <a href="#-como-rodar">Como Rodar</a> • 
- <a href="#-consideracoes-finais">Considerações Finais</a> • 
- <a href="#-autor">Autor</a> • 
- <a href="#user-content--licença">Licença</a>
+ • <a href="#descricao-do-projeto">Descrição do Projeto</a> •
+ <a href="#funcionalidades">Funcionalidades</a> •
+ <a href="#testando-a-api">Testando a API</a> • 
+ <a href="#como-rodar">Como Rodar</a> • 
+ <a href="#consideracoes-finais">Considerações Finais</a> • 
+ <a href="#autor">Autor</a> • 
+ <a href="#licença">Licença</a>
 </p>
 
 ## Descrição do Projeto
+## Funcionalidades
+## Testando a API
+## Como Rodar
+## Considerações Finais
+## Autor
+## Licença
 
 
