@@ -61,12 +61,12 @@ ___
  <a href="#licença">Licença</a>
 </p>
 
-## Descrição do Projeto
-## Funcionalidades
-## Testando a API
-## Como Rodar
+---
+
+## :black_nib: Descrição do Projeto
+## :nut_and_bolt: Funcionalidades
+## :computer: Testando a API
+## :arrow_forward: Como Rodar
 ## Considerações Finais
-## Autor
-## Licença
-
-
+## :mag_right: Autor
+## :copyright: Licença
