@@ -1,5 +1,5 @@
 <div align="center">        
-    <h1><strong>:rocket: Next Level Week 04 :rocket:</strong></h1>    
+    <h2><strong>:rocket: Next Level Week 04 | Node.js | API | Envio de e-mail para Pesquisa de Satisfação Utilizando o Calculo do NPS :rocket:</strong></h2>
     <img src="./src/images_readme/nlw03-.png" alt="Next Level Week 04">
 </div>
 
@@ -47,4 +47,8 @@ ___
     <img alt="GitHub package.json dependency version (prod)" src="https://img.shields.io/github/package-json/dependency-version/randelsouza/next-level-week-4/yup?style=for-the-badge">
 </a>    
 </p>
+
+<div align="center">
+
+</div>
 
