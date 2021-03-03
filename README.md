@@ -56,7 +56,7 @@ ___
  <a href="#funcionalidades">Funcionalidades</a> •
  <a href="#testando-a-api">Testando a API</a> • 
  <a href="#como-rodar">Como Rodar</a> • 
- <a href="#consideracoes-finais">Considerações Finais</a> • 
+ <a href="#considerações-finais">Considerações Finais</a> • 
  <a href="#autor">Autor</a> • 
  <a href="#licença">Licença</a>
 </p>
