@@ -1,6 +1,8 @@
 <div align="center">        
-    <h2><strong>:rocket: Next Level Week 04 | Node.js | API | Envio de e-mail para Pesquisa de Satisfação Utilizando o Calculo do NPS :rocket:</strong></h2>
-    <img src="./src/images_readme/nlw03-.png" alt="Next Level Week 04">
+    <h2><strong>:rocket: Next Level Week 04 | Node.js | API | Envio de e-mail para Pesquisa de Satisfação Utilizando o Calculo do NPS :rocket:</strong></h2>    
+    <a href="https://app.rocketseat.com.br/">
+        <img src="./src/images_readme/nlw03-.png" alt="Next Level Week 04">
+    </a>
 </div>
 
 ___
