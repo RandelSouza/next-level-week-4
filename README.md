@@ -52,7 +52,7 @@ ___
 ---
 
 <p align="center">
- • <a href="#descricao-do-projeto">Descrição do Projeto</a> •
+:link: • <a href="#descricao-do-projeto">Descrição do Projeto</a> •
  <a href="#funcionalidades">Funcionalidades</a> •
  <a href="#testando-a-api">Testando a API</a> • 
  <a href="#como-rodar">Como Rodar</a> • 
