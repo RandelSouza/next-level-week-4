@@ -52,13 +52,13 @@ ___
 ---
 
 <p align="center">
-:link: • <a href="#descricao-do-projeto">Descrição do Projeto</a> •
- <a href="#funcionalidades">Funcionalidades</a> •
- <a href="#testando-a-api">Testando a API</a> • 
- <a href="#como-rodar">Como Rodar</a> • 
- <a href="#considerações-finais">Considerações Finais</a> • 
- <a href="#autor">Autor</a> • 
- <a href="#licença">Licença</a>
+:link: • <a href="#black_nib-descrição-do-projeto">Descrição do Projeto</a> •
+ <a href="#nut_and_bolt-funcionalidades">Funcionalidades</a> •
+ <a href="#computer-testando-a-api">Testando a API</a> • 
+ <a href="#arrow_forward-como-rodar">Como Rodar</a> • 
+ <a href="#eight_spoked_asterisk-considerações-finais">Considerações Finais</a> • 
+ <a href="#mag_right-autor">Autor</a> • 
+ <a href="#copyright-licença">Licença</a>
 </p>
 
 ---
