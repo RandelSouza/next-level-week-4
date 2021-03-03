@@ -8,31 +8,31 @@ ___
 <p align="center">
 
 <a href="https://github.com/RandelSouza/next-level-week-4/blob/master/LICENSE">
-    <img alt="GitHub" src="https://img.shields.io/github/license/randelsouza/next-level-week-4?style=for-the-badge">
+    <img alt="GitHub LICENSE" src="https://img.shields.io/github/license/randelsouza/next-level-week-4?style=for-the-badge">
 </a>
 
 <a href="https://www.npmjs.com/package/express">
-    <img alt="GitHub package.json dependency version (prod)" src="https://img.shields.io/github/package-json/dependency-version/randelsouza/next-level-week-4/express?style=for-the-badge">
+    <img alt="GitHub package.json dependency express" src="https://img.shields.io/github/package-json/dependency-version/randelsouza/next-level-week-4/express?style=for-the-badge">
 </a>
 
 <a href="https://www.npmjs.com/package/express-async-errors">
-<img alt="GitHub package.json dependency version (prod)" src="https://img.shields.io/github/package-json/dependency-version/randelsouza/next-level-week-4/express-async-errors?style=for-the-badge">
+<img alt="GitHub package.json dependency express-async-errors" src="https://img.shields.io/github/package-json/dependency-version/randelsouza/next-level-week-4/express-async-errors?style=for-the-badge">
 </a>
 
 <a href="https://handlebarsjs.com/">
-    <img alt="GitHub package.json dependency version (prod)" src="https://img.shields.io/github/package-json/dependency-version/randelsouza/next-level-week-4/handlebars?style=for-the-badge">
+    <img alt="GitHub package.json dependency handlebarsjs" src="https://img.shields.io/github/package-json/dependency-version/randelsouza/next-level-week-4/handlebars?style=for-the-badge">
 </a>
 
 <a href="https://www.npmjs.com/package/nodemailer">
-    <img alt="GitHub package.json dependency version (prod)" src="https://img.shields.io/github/package-json/dependency-version/randelsouza/next-level-week-4/nodemailer?style=for-the-badge">
+    <img alt="GitHub package.json dependency nodemailer" src="https://img.shields.io/github/package-json/dependency-version/randelsouza/next-level-week-4/nodemailer?style=for-the-badge">
 </a>
 
 <a href="https://www.npmjs.com/package/reflect-metadata">
-    <img alt="GitHub package.json dependency version (prod)" src="https://img.shields.io/github/package-json/dependency-version/randelsouza/next-level-week-4/reflect-metadata?style=for-the-badge">
+    <img alt="GitHub package.json dependency reflect-metadata" src="https://img.shields.io/github/package-json/dependency-version/randelsouza/next-level-week-4/reflect-metadata?style=for-the-badge">
 </a>    
 
 <a href="https://www.npmjs.com/package/sqlite3">
-    <img alt="GitHub package.json dependency version (prod)" src="https://img.shields.io/github/package-json/dependency-version/randelsouza/next-level-week-4/sqlite3?style=for-the-badge">
+    <img alt="GitHub package.json dependency sqlite3" src="https://img.shields.io/github/package-json/dependency-version/randelsouza/next-level-week-4/sqlite3?style=for-the-badge">
 </a>
 
 <a href="https://www.npmjs.com/package/typeorm">
