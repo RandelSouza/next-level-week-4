@@ -1,6 +1,6 @@
 <div align="center">        
     <h2><strong>:rocket: Next Level Week 04 | Node.js | API | Envio de e-mail para Pesquisa de Satisfação Utilizando o Calculo do NPS :rocket:</strong></h2>    
-    <a href="https://app.rocketseat.com.br/" target="_blank">
+    <a href="https://app.rocketseat.com.br/" rel="opener">
         <img src="./src/images_readme/nlw03-.png" alt="Next Level Week 04">
     </a>
 </div>
@@ -10,7 +10,7 @@ ___
 <h2 align="center"> :copyright: Licença | :file_folder: Dependências</h2>
 <p align="center">
 
-<a href="https://github.com/RandelSouza/next-level-week-4/blob/master/LICENSE" target="_blank">
+<a href="https://github.com/RandelSouza/next-level-week-4/blob/master/LICENSE" rel="opener">
     <img alt="GitHub LICENSE" src="https://img.shields.io/github/license/randelsouza/next-level-week-4?style=for-the-badge">
 </a>
 
@@ -18,43 +18,42 @@ ___
     <img alt="GitHub package.json dependency express" src="https://img.shields.io/github/package-json/dependency-version/randelsouza/next-level-week-4/express?style=for-the-badge">
 </a>
 
-<a href="https://www.npmjs.com/package/express-async-errors" target="_blank">
+<a href="https://www.npmjs.com/package/express-async-errors" rel="opener">
 <img alt="GitHub package.json dependency express-async-errors" src="https://img.shields.io/github/package-json/dependency-version/randelsouza/next-level-week-4/express-async-errors?style=for-the-badge">
 </a>
 
-<a href="https://handlebarsjs.com/" target="_blank">
+<a href="https://handlebarsjs.com/" rel="opener">
     <img alt="GitHub package.json dependency handlebarsjs" src="https://img.shields.io/github/package-json/dependency-version/randelsouza/next-level-week-4/handlebars?style=for-the-badge">
 </a>
 
-<a href="https://www.npmjs.com/package/nodemailer" target="_blank">
+<a href="https://www.npmjs.com/package/nodemailer" rel="opener">
     <img alt="GitHub package.json dependency nodemailer" src="https://img.shields.io/github/package-json/dependency-version/randelsouza/next-level-week-4/nodemailer?style=for-the-badge">
 </a>
 
-<a href="https://www.npmjs.com/package/reflect-metadata" target="_blank">
+<a href="https://www.npmjs.com/package/reflect-metadata" rel="opener">
     <img alt="GitHub package.json dependency reflect-metadata" src="https://img.shields.io/github/package-json/dependency-version/randelsouza/next-level-week-4/reflect-metadata?style=for-the-badge">
 </a>    
 
-<a href="https://www.npmjs.com/package/sqlite3" target="_blank">
+<a href="https://www.npmjs.com/package/sqlite3" rel="opener">
     <img alt="GitHub package.json dependency sqlite3" src="https://img.shields.io/github/package-json/dependency-version/randelsouza/next-level-week-4/sqlite3?style=for-the-badge">
 </a>
 
-<a href="https://www.npmjs.com/package/typeorm" target="_blank">
+<a href="https://www.npmjs.com/package/typeorm" rel="opener">
     <img alt="GitHub package.json dependency version (prod)" src="https://img.shields.io/github/package-json/dependency-version/randelsouza/next-level-week-4/typeorm?style=for-the-badge">
 </a>
 
-<a href="https://www.npmjs.com/package/uuid" target="_blank">
+<a href="https://www.npmjs.com/package/uuid" rel="opener">
     <img alt="GitHub package.json dependency version (prod)" src="https://img.shields.io/github/package-json/dependency-version/randelsouza/next-level-week-4/uuid?style=for-the-badge">
 </a>    
 
-<a href="https://www.npmjs.com/package/yup" target="_blank">
+<a href="https://www.npmjs.com/package/yup" rel="opener">
     <img alt="GitHub package.json dependency version (prod)" src="https://img.shields.io/github/package-json/dependency-version/randelsouza/next-level-week-4/yup?style=for-the-badge">
 </a>    
 </p>
 
 ---
 
-<p align="center">
-:link: • <a href="#black_nib-descrição-do-projeto">Descrição do Projeto</a> •
+<p align="rel="opener" • <a href="#black_nib-descrição-do-projeto">Descrição do Projeto</a> •
  <a href="#nut_and_bolt-funcionalidades">Funcionalidades</a> •
  <a href="#computer-testando-a-api">Testando a API</a> • 
  <a href="#arrow_forward-como-rodar">Como Rodar</a> • 
