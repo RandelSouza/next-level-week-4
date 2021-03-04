@@ -1,6 +1,6 @@
 <div align="center">        
     <h2><strong>:rocket: Next Level Week 04 | Node.js | API | Envio de e-mail para Pesquisa de Satisfação Utilizando o Calculo do NPS :rocket:</strong></h2>    
-    <a href="https://app.rocketseat.com.br/">
+    <a href="https://app.rocketseat.com.br/" >
         <img src="./src/images_readme/nlw03-.png" alt="Next Level Week 04">
     </a>
 </div>
@@ -10,7 +10,7 @@ ___
 <h2 align="center"> :copyright: Licença | :file_folder: Dependências</h2>
 <p align="center">
 
-<a href="https://github.com/RandelSouza/next-level-week-4/blob/master/LICENSE">
+<a href="https://github.com/RandelSouza/next-level-week-4/blob/master/LICENSE" >
     <img alt="GitHub LICENSE" src="https://img.shields.io/github/license/randelsouza/next-level-week-4?style=for-the-badge">
 </a>
 
@@ -18,42 +18,43 @@ ___
     <img alt="GitHub package.json dependency express" src="https://img.shields.io/github/package-json/dependency-version/randelsouza/next-level-week-4/express?style=for-the-badge">
 </a>
 
-<a href="https://www.npmjs.com/package/express-async-errors">
+<a href="https://www.npmjs.com/package/express-async-errors" >
 <img alt="GitHub package.json dependency express-async-errors" src="https://img.shields.io/github/package-json/dependency-version/randelsouza/next-level-week-4/express-async-errors?style=for-the-badge">
 </a>
 
-<a href="https://handlebarsjs.com/">
+<a href="https://handlebarsjs.com/" >
     <img alt="GitHub package.json dependency handlebarsjs" src="https://img.shields.io/github/package-json/dependency-version/randelsouza/next-level-week-4/handlebars?style=for-the-badge">
 </a>
 
-<a href="https://www.npmjs.com/package/nodemailer">
+<a href="https://www.npmjs.com/package/nodemailer" >
     <img alt="GitHub package.json dependency nodemailer" src="https://img.shields.io/github/package-json/dependency-version/randelsouza/next-level-week-4/nodemailer?style=for-the-badge">
 </a>
 
-<a href="https://www.npmjs.com/package/reflect-metadata">
+<a href="https://www.npmjs.com/package/reflect-metadata" >
     <img alt="GitHub package.json dependency reflect-metadata" src="https://img.shields.io/github/package-json/dependency-version/randelsouza/next-level-week-4/reflect-metadata?style=for-the-badge">
 </a>    
 
-<a href="https://www.npmjs.com/package/sqlite3">
+<a href="https://www.npmjs.com/package/sqlite3" >
     <img alt="GitHub package.json dependency sqlite3" src="https://img.shields.io/github/package-json/dependency-version/randelsouza/next-level-week-4/sqlite3?style=for-the-badge">
 </a>
 
-<a href="https://www.npmjs.com/package/typeorm">
+<a href="https://www.npmjs.com/package/typeorm" >
     <img alt="GitHub package.json dependency version (prod)" src="https://img.shields.io/github/package-json/dependency-version/randelsouza/next-level-week-4/typeorm?style=for-the-badge">
 </a>
 
-<a href="https://www.npmjs.com/package/uuid">
+<a href="https://www.npmjs.com/package/uuid" >
     <img alt="GitHub package.json dependency version (prod)" src="https://img.shields.io/github/package-json/dependency-version/randelsouza/next-level-week-4/uuid?style=for-the-badge">
 </a>    
 
-<a href="https://www.npmjs.com/package/yup">
+<a href="https://www.npmjs.com/package/yup" >
     <img alt="GitHub package.json dependency version (prod)" src="https://img.shields.io/github/package-json/dependency-version/randelsouza/next-level-week-4/yup?style=for-the-badge">
 </a>    
 </p>
 
 ---
 
-<p align= • <a href="#black_nib-descrição-do-projeto">Descrição do Projeto</a> •
+<p align="center" >
+ • <a href="#black_nib-descrição-do-projeto">Descrição do Projeto</a> •
  <a href="#nut_and_bolt-funcionalidades">Funcionalidades</a> •
  <a href="#computer-testando-a-api">Testando a API</a> • 
  <a href="#arrow_forward-como-rodar">Como Rodar</a> • 
