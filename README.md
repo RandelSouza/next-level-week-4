@@ -84,15 +84,14 @@ ___
 Este projeto detém a <a href="https://github.com/RandelSouza/next-level-week-4/blob/master/LICENSE">Licença MIT</a>
 
 * Exigido
-    - Aviso de licença e direitos autorais: inclua uma cópia da licença e aviso de direitos 
+    - :information_source: Aviso de licença e direitos autorais: inclua uma cópia da licença e aviso de direitos 
 autorais com o código.
 
 * Permitido
-    - Uso comercial: o software e seus derivados podem ser utilizados para fins comerciais.
-    - Modificação: o software pode ser modificado.
-    - Distribuição: o software pode ser destribuido.
-    - Sublicenciamento: Pode-se conceder uma sublicença para modificar e distribuir o software
-        a terceiros não incluídos na licença.
+    - :heavy_check_mark: Uso comercial: o software e seus derivados podem ser utilizados para fins comerciais.
+    - :heavy_check_mark: Modificação: o software pode ser modificado.
+    - :heavy_check_mark: Distribuição: o software pode ser destribuido.
+    - :heavy_check_mark: Sublicenciamento: Pode-se conceder uma sublicença para modificar e distribuir o software a terceiros não incluídos na licença.
 
 * Proibido
-    - Responsabilidade Assegurada: O software é fornecido sem garantia e o autor/licença do software não pode ser responsabilizado por perdas e danos.
+    - :heavy_multiplication_x: Responsabilidade Assegurada: O software é fornecido sem garantia e o autor/licença do software não pode ser responsabilizado por perdas e danos.
