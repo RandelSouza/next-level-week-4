@@ -78,7 +78,6 @@ ___
 </p>
 
 [![Linkdin Badge Link](https://img.shields.io/badge/-Randel-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&link=https://www.linkedin.com/in/randelsouza/)](https://www.linkedin.com/in/randelsouza/)
-
 [![Gmail Badge Link](https://img.shields.io/badge/-randelsouza88@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white&link=mailto:randelsouza88@gmail.com)](mailto:randelsouza88@gmail.com)
 
 ## :copyright: Licença
