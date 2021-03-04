@@ -81,3 +81,18 @@ ___
 [![Gmail Badge Link](https://img.shields.io/badge/-randelsouza88@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white&link=mailto:randelsouza88@gmail.com)](mailto:randelsouza88@gmail.com)
 
 ## :copyright: Licença
+Este projeto detém a <a href="https://github.com/RandelSouza/next-level-week-4/blob/master/LICENSE">Licença MIT</a>
+
+* Exigido
+    - Aviso de licença e direitos autorais: inclua uma cópia da licença e aviso de direitos 
+autorais com o código.
+
+* Permitido
+    - Uso comercial: o software e seus derivados podem ser utilizados para fins comerciais.
+    - Modificação: o software pode ser modificado.
+    - Distribuição: o software pode ser destribuido.
+    - Sublicenciamento: Pode-se conceder uma sublicença para modificar e distribuir o software
+        a terceiros não incluídos na licença.
+
+* Proibido
+    - Responsabilidade Assegurada: O software é fornecido sem garantia e o autor/licença do software não pode ser responsabilizado por perdas e danos.
