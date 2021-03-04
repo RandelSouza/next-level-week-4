@@ -71,4 +71,7 @@ ___
 ## :arrow_forward: Como Rodar
 ## :eight_spoked_asterisk: Considerações Finais
 ## :mag_right: Autor
+
+<img width="100px" style="border-radius: 50%" height="100px" src="https://avatars.githubusercontent.com/u/30515957?s=460&u=affdd7f0e56343addc3d37c3178e0999d51f7f8e&v=4" alt="Autot: Randel Souza Almeida">
+
 ## :copyright: Licença
