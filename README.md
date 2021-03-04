@@ -74,6 +74,6 @@ ___
 
 <img width="100px;" height="100px;" src="https://avatars.githubusercontent.com/u/30515957?s=460&u=affdd7f0e56343addc3d37c3178e0999d51f7f8e&v=4" alt="Autor: Randel Souza Almeida">
 
-![Linkdin Badge Link](https://img.shields.io/badge/-Randel-blue?style=for-the-badge&logo=linkedin&logoColor=white&link=https://www.linkedin.com/in/randelsouza/)
+[![Linkdin Badge Link](https://img.shields.io/badge/-Randel-blue?style=for-the-badge&logo=linkedin&logoColor=white&link=https://www.linkedin.com/in/randelsouza/)](https://www.linkedin.com/in/randelsouza/)
 
 ## :copyright: Licença
