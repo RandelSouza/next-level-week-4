@@ -66,6 +66,10 @@ ___
 ---
 
 ## :black_nib: Descrição do Projeto
+* O *Net Promoter Score* (NPS) é uma métrica que objetiva medir o grau de satisfação e lealdade dos clientes com as empresas. Organizações de todos os portes e lugares do mundo utilizam o NPS por ser um método prático e eficaz durante as pesquisas periódicas realizadas com seus clientes.
+
+Fonte: [https://www.dds.com.br/blog/index.php/entenda-importancia-nps-para-sua-empresa/](https://www.dds.com.br/blog/index.php/entenda-importancia-nps-para-sua-empresa/)
+
 ## :nut_and_bolt: Funcionalidades
 ## :computer: Testando a API
 ## :arrow_forward: Como Rodar
