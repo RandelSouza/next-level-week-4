@@ -68,6 +68,15 @@ ___
 ## :black_nib: Descrição do Projeto
 * O *Net Promoter Score* (NPS) é uma métrica que objetiva medir o grau de satisfação e lealdade dos clientes com as empresas. Organizações de todos os portes e lugares do mundo utilizam o NPS por ser um método prático e eficaz durante as pesquisas periódicas realizadas com seus clientes.
 
+* O índice é avaliado de acordo com a resposta de uma única pergunta, como por exemplo a seguinte: `Em uma escala de 0 a 10, o quanto você indicaria a Rocketseat para um amigo?`.
+
+* A questão da pesquisa é uma pergunta chave, pois Pressupõe que ninguém indicaria algo ruim para um amigo. A resposta quantitativa de 0 a 10 viabiliza o calculo do NPS.
+
+* Após o cliente dar sua nota, eles serão classificados da seguinte maneira.
+    - Clientes **detratores** (***detractors***): notas de **0-6**.
+    - Clientes **neutros** (***passivos***): notas de **7-8**.
+    - Clientes **promotores** (***promoters***): notas de **9-10**.
+
 Fonte: [https://www.dds.com.br/blog/index.php/entenda-importancia-nps-para-sua-empresa/](https://www.dds.com.br/blog/index.php/entenda-importancia-nps-para-sua-empresa/). Acessado em 04/03/2021.
 
 ## :nut_and_bolt: Funcionalidades
