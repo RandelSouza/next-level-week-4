@@ -80,7 +80,7 @@ ___
     - Clientes **promotores** (***promoters***): notas de **9-10**.
         - clientes totalmente satisfeitos :smiley:.
 
-    ![Imagem detratores, neutros e promotores](./images_readme/NPS-1.jpg)
+    <img alt="Imagem detratores, neutros e promotores" src="./images_readme/NPS-1.jpg">
 
 Fonte: [https://www.dds.com.br/blog/index.php/entenda-importancia-nps-para-sua-empresa/](https://www.dds.com.br/blog/index.php/entenda-importancia-nps-para-sua-empresa/). Acessado em 04/03/2021.
 
