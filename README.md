@@ -79,6 +79,8 @@ ___
         - clientes com satisfação média :neutral_face:.
     - Clientes **promotores** (***promoters***): notas de **9-10**.
         - clientes totalmente satisfeitos :smiley:.
+    
+    <br/>
 
     <img alt="Imagem detratores, neutros e promotores" src="./src/images_readme/NPS-1.jpg">
 
