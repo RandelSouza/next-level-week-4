@@ -70,11 +70,11 @@ ___
 
 * O índice é avaliado de acordo com a resposta de uma única pergunta, como por exemplo a seguinte: `Em uma escala de 0 a 10, o quanto você indicaria a Rocketseat para um amigo?`.
 
-* A questão da pesquisa é uma pergunta chave, pois Pressupõe que ninguém indicaria algo ruim para um amigo. A resposta quantitativa de 0 a 10 viabiliza o calculo do NPS.
+* A questão da pesquisa é uma pergunta chave, pois pressupõe que ninguém indicaria algo ruim para um amigo. A resposta quantitativa de 0 a 10 viabiliza o calculo do NPS.
 
 * Após o cliente dar sua nota, eles serão classificados da seguinte maneira.
     - Clientes **detratores** (***detractors***): notas de **0-6**.
-    - Clientes **neutros** (***passivos***): notas de **7-8**.
+    - Clientes **neutros** (***passives***): notas de **7-8**.
     - Clientes **promotores** (***promoters***): notas de **9-10**.
 
 Fonte: [https://www.dds.com.br/blog/index.php/entenda-importancia-nps-para-sua-empresa/](https://www.dds.com.br/blog/index.php/entenda-importancia-nps-para-sua-empresa/). Acessado em 04/03/2021.
@@ -96,15 +96,15 @@ Fonte: [https://www.dds.com.br/blog/index.php/entenda-importancia-nps-para-sua-e
 ## :copyright: Licença
 Este projeto detém a <a href="https://github.com/RandelSouza/next-level-week-4/blob/master/LICENSE">Licença MIT</a>
 
-* Exigido
+* **Exigido**
     - :information_source: Aviso de licença e direitos autorais: inclua uma cópia da licença e aviso de direitos 
 autorais com o código.
 
-* Permitido
+* **Permitido**
     - :heavy_check_mark: Uso comercial: o software e seus derivados podem ser utilizados para fins comerciais.
     - :heavy_check_mark: Modificação: o software pode ser modificado.
     - :heavy_check_mark: Distribuição: o software pode ser destribuido.
     - :heavy_check_mark: Sublicenciamento: Pode-se conceder uma sublicença para modificar e distribuir o software a terceiros não incluídos na licença.
 
-* Proibido
+* **Proibido**
     - :heavy_multiplication_x: Responsabilidade Assegurada: O software é fornecido sem garantia e o autor/licença do software não pode ser responsabilizado por perdas e danos.
