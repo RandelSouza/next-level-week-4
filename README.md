@@ -74,8 +74,11 @@ ___
 
 * Após o cliente dar sua nota, eles serão classificados da seguinte maneira.
     - Clientes **detratores** (***detractors***): notas de **0-6**.
+        - clientes totalmente insatisfeitos :disappointed:.
     - Clientes **neutros** (***passives***): notas de **7-8**.
+        - clientes com satisfação média :neutral_face:.
     - Clientes **promotores** (***promoters***): notas de **9-10**.
+        - clientes totalmente satisfeitos :smiley:.
 
 Fonte: [https://www.dds.com.br/blog/index.php/entenda-importancia-nps-para-sua-empresa/](https://www.dds.com.br/blog/index.php/entenda-importancia-nps-para-sua-empresa/). Acessado em 04/03/2021.
 
