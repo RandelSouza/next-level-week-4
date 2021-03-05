@@ -86,7 +86,7 @@ ___
 
     <br/>
 
-![formula](https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1)
+<img src="https://render.githubusercontent.com/render/math?math=e^{i %2B\pi} =x%2B1">
 
 Fonte: [https://www.dds.com.br/blog/index.php/entenda-importancia-nps-para-sua-empresa/](https://www.dds.com.br/blog/index.php/entenda-importancia-nps-para-sua-empresa/). Acessado em 04/03/2021.
 
