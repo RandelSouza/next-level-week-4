@@ -131,7 +131,7 @@ O servidor ficará ouvindo requisições na URL: `http://localhost:3333/`
     - Tipo de resposta:
         ```json
         {
-            "id": "7baeed55-554a-44ec-8a27-9d131542dbad",
+            "id": "7baeed55-554a-44ec-8a27-9d131542dca11",
             "name": "User example create",
             "email": "user_example@test.com.br",
             "created_at": "2021-02-06T15:18:13.000Z"
@@ -139,26 +139,26 @@ O servidor ficará ouvindo requisições na URL: `http://localhost:3333/`
 
         ```
 
-```typescript
-// Criar uma nova pesquisa
-router.post("/surveys", surveyController.create);
-```
-```typescript
-// Mostrar as pesquisas criadas
-router.get("/surveys", surveyController.show);
-```
-```typescript
-// Enviar email para um determinado usuário
-router.post("/sendMail", sendEmailController.execute);
-```
-```typescript
-//
-router.get("/answers/:value", answerController.execute);
-```
-```typescript
-// Calcular o NPS de uma determinada pesquisa
-router.get("/nps/:survey_id", npsController.execute); 
-```
+* **Criar uma nova pesquisa**.
+    ```typescript
+    router.post("/surveys", surveyController.create);
+    ```
+* **Mostrar as pesquisas criadas**.
+    ```typescript
+    router.get("/surveys", surveyController.show);
+    ```
+* **Enviar email para um determinado usuário**.
+    ```typescript     
+    router.post("/sendMail", sendEmailController.execute);
+    ```
+* **Cadastrar nota do usuário**.    
+    ```typescript
+    router.get("/answers/:value", answerController.execute);
+    ```
+* **Calcular o NPS de uma determinada pesquisa**.  
+    ```typescript
+    router.get("/nps/:survey_id", npsController.execute); 
+    ```
 
 ## :computer: Testando a API
 ## :arrow_forward: Como Rodar
