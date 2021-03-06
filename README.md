@@ -87,18 +87,26 @@ ___
     <br/>
 
 <!--img src="https://render.githubusercontent.com/render/math?math=e^{i %2B\pi} =x%2B1"-->
-* Calculo do NPS: 
+* Cálculo do NPS: 
     - Onde:
         - detratores = total de clientes que deram notas de 0-6.    
         - neutros = total de clientes que deram notas de 7-8.   
         - promotores = total de clientes que deram notas de 9-10.
         - respondentes = detratores + neutros + promotores.
 
-        Obs.: Os neutros não entram diretamente no calculo, somente para o total de respondentes.
+        Obs.: Os neutros não entram diretamente no cálculo, somente para o total de respondentes.
         
          <br/>
 
         <img src="https://render.githubusercontent.com/render/math?math=\huge\frac{(promotores%20-%20detratores)}{respondentes}x100">
+
+        <br/>
+    
+    - Zona de classificação do NPS:
+        - Excelência: pontuação entre 75% e 100% :trophy:.
+        - Qualidade: pontuação entre 50% e 74% :tada:.
+        - Aperfeiçoameto: pontuação entre 0% e 49% :wrench:.
+        - Critica: pontuação entre -100% e -1% :chart_with_downwards_trend:.
 
 Fonte: [https://www.dds.com.br/blog/index.php/entenda-importancia-nps-para-sua-empresa/](https://www.dds.com.br/blog/index.php/entenda-importancia-nps-para-sua-empresa/). Acessado em 04/03/2021.
 
