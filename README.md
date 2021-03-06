@@ -114,22 +114,39 @@ Fonte: [https://www.dds.com.br/blog/index.php/entenda-importancia-nps-para-sua-e
 
 O servidor ficará ouvindo requisições na URL: `http://localhost:3333/`
 
-```typescript
-// Criar um novo usuário
-router.post("/users", userController.create);
+* **Criar um novo usuário**.
+    URL: `http://localhost:3333/users`.
+    Verbo HTTP: `POST`.
+    Body HTTP:
+    ```json
+    {
+        "email": "user_example@test.com.br",
+        "name": "User example create"
+    }
+    ```
 
+    ```typescript
+
+    router.post("/users", userController.create);
+    ```
+
+```typescript
 // Criar uma nova pesquisa
 router.post("/surveys", surveyController.create);
-
+```
+```typescript
 // Mostrar as pesquisas criadas
 router.get("/surveys", surveyController.show);
-
+```
+```typescript
 // Enviar email para um determinado usuário
 router.post("/sendMail", sendEmailController.execute);
-
+```
+```typescript
 //
 router.get("/answers/:value", answerController.execute);
-
+```
+```typescript
 // Calcular o NPS de uma determinada pesquisa
 router.get("/nps/:survey_id", npsController.execute); 
 ```
