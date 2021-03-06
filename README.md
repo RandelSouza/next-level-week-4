@@ -15,39 +15,39 @@ ___
 </a>
 
 <a href="https://www.npmjs.com/package/express">
-    <img alt="GitHub package.json dependency express" src="https://img.shields.io/github/package-json/dependency-version/randelsouza/next-level-week-4/express?style=for-the-badge">
+    <img alt="GitHub package.yaml dependency express" src="https://img.shields.io/github/package-yaml/dependency-version/randelsouza/next-level-week-4/express?style=for-the-badge">
 </a>
 
 <a href="https://www.npmjs.com/package/express-async-errors" >
-<img alt="GitHub package.json dependency express-async-errors" src="https://img.shields.io/github/package-json/dependency-version/randelsouza/next-level-week-4/express-async-errors?style=for-the-badge">
+<img alt="GitHub package.yaml dependency express-async-errors" src="https://img.shields.io/github/package-yaml/dependency-version/randelsouza/next-level-week-4/express-async-errors?style=for-the-badge">
 </a>
 
 <a href="https://handlebarsjs.com/" >
-    <img alt="GitHub package.json dependency handlebarsjs" src="https://img.shields.io/github/package-json/dependency-version/randelsouza/next-level-week-4/handlebars?style=for-the-badge">
+    <img alt="GitHub package.yaml dependency handlebarsjs" src="https://img.shields.io/github/package-yaml/dependency-version/randelsouza/next-level-week-4/handlebars?style=for-the-badge">
 </a>
 
 <a href="https://www.npmjs.com/package/nodemailer" >
-    <img alt="GitHub package.json dependency nodemailer" src="https://img.shields.io/github/package-json/dependency-version/randelsouza/next-level-week-4/nodemailer?style=for-the-badge">
+    <img alt="GitHub package.yaml dependency nodemailer" src="https://img.shields.io/github/package-yaml/dependency-version/randelsouza/next-level-week-4/nodemailer?style=for-the-badge">
 </a>
 
 <a href="https://www.npmjs.com/package/reflect-metadata" >
-    <img alt="GitHub package.json dependency reflect-metadata" src="https://img.shields.io/github/package-json/dependency-version/randelsouza/next-level-week-4/reflect-metadata?style=for-the-badge">
+    <img alt="GitHub package.yaml dependency reflect-metadata" src="https://img.shields.io/github/package-yaml/dependency-version/randelsouza/next-level-week-4/reflect-metadata?style=for-the-badge">
 </a>    
 
 <a href="https://www.npmjs.com/package/sqlite3" >
-    <img alt="GitHub package.json dependency sqlite3" src="https://img.shields.io/github/package-json/dependency-version/randelsouza/next-level-week-4/sqlite3?style=for-the-badge">
+    <img alt="GitHub package.yaml dependency sqlite3" src="https://img.shields.io/github/package-yaml/dependency-version/randelsouza/next-level-week-4/sqlite3?style=for-the-badge">
 </a>
 
 <a href="https://www.npmjs.com/package/typeorm" >
-    <img alt="GitHub package.json dependency version (prod)" src="https://img.shields.io/github/package-json/dependency-version/randelsouza/next-level-week-4/typeorm?style=for-the-badge">
+    <img alt="GitHub package.yaml dependency version (prod)" src="https://img.shields.io/github/package-yaml/dependency-version/randelsouza/next-level-week-4/typeorm?style=for-the-badge">
 </a>
 
 <a href="https://www.npmjs.com/package/uuid" >
-    <img alt="GitHub package.json dependency version (prod)" src="https://img.shields.io/github/package-json/dependency-version/randelsouza/next-level-week-4/uuid?style=for-the-badge">
+    <img alt="GitHub package.yaml dependency version (prod)" src="https://img.shields.io/github/package-yaml/dependency-version/randelsouza/next-level-week-4/uuid?style=for-the-badge">
 </a>    
 
 <a href="https://www.npmjs.com/package/yup" >
-    <img alt="GitHub package.json dependency version (prod)" src="https://img.shields.io/github/package-json/dependency-version/randelsouza/next-level-week-4/yup?style=for-the-badge">
+    <img alt="GitHub package.yaml dependency version (prod)" src="https://img.shields.io/github/package-yaml/dependency-version/randelsouza/next-level-week-4/yup?style=for-the-badge">
 </a>    
 </p>
 
@@ -118,7 +118,7 @@ O servidor ficará ouvindo requisições na URL: `http://localhost:3333/`
     - URL: `http://localhost:3333/users`.
     - Verbo HTTP: `POST`.
     - Corpo HTTP:
-        ```json        
+        ```yaml        
         {
             "name": "User example create",
             "email": "user_example@test.com.br"           
@@ -129,7 +129,7 @@ O servidor ficará ouvindo requisições na URL: `http://localhost:3333/`
         router.post("/users", userController.create);
         ```
     - Tipo de resposta:
-        ```json
+        ```yaml
         {
             "id": "7baeed55-554a-44ec-8a27-9d131542dca11",
             "name": "User example create",
@@ -143,7 +143,7 @@ O servidor ficará ouvindo requisições na URL: `http://localhost:3333/`
     - URL: `http://localhost:3333/surveys`.
     - Verbo HTTP: `POST`.
     - Corpo HTTP:
-         ```json        
+         ```yaml        
         {
             "title": "Pesquisa de opinião!",
             "description": "De 0 a 10 quanto você recomendaria a Rocketseat para um amigo?"
@@ -156,7 +156,7 @@ O servidor ficará ouvindo requisições na URL: `http://localhost:3333/`
         ```
 
     - Tipo de resposta:
-        ```json
+        ```yaml
        {
             "id": "f58bd1f0-3a06-44a0-87fb-34d137030676",
             "title": "Pesquisa de opinião",
