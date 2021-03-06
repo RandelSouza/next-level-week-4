@@ -214,15 +214,16 @@ O servidor ficará ouvindo requisições na URL: `http://localhost:3333/`
 
 * **Cadastrar nota do usuário**.     
     - URL: `http://localhost:3333/answers/${nota}?u=${survey_user_id}`.
-        - Exemplo: `http://localhost:3333/answers/10?u=653badbb-8294-45d0-851b-253561d54efa`
+        - Exemplo: `http://localhost:3333/answers/10?u=653badbb-8294-45d0-851b-253561d54efa`.
     - Verbo HTTP: `GET`.   
 
-     - EndPoint: 
+     - EndPoint:      
         ```typescript
         router.get("/answers/:value", answerController.execute);
         ```
-      - Resposta: 
-      ```yaml
+
+    - Resposta: 
+        ```yaml
         {
             "id": "653badbb-8294-45d0-851b-253561d54efa",
             "user_id": "532040d6-527b-43ca-8a0e-3c28a126472e",
@@ -230,7 +231,7 @@ O servidor ficará ouvindo requisições na URL: `http://localhost:3333/`
             "value": 10,
             "created_at": "2021-03-06T17:41:39.000Z"
         }
-      ```
+        ```
 
 * **Calcular o NPS de uma determinada pesquisa**.  
     - URL: .`localhost:3333/nps/${survey_id}`
