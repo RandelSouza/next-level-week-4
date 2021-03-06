@@ -112,10 +112,7 @@ Fonte: [https://www.dds.com.br/blog/index.php/entenda-importancia-nps-para-sua-e
 
 ## :nut_and_bolt: Funcionalidades
 
-O servidor ficará ouvindo requisições na URL: 
-```shell
-http://localhost:3333/
-```
+O servidor ficará ouvindo requisições na URL: `http://localhost:3333/`
 
 ```typescript
 // Criar um novo usuário
