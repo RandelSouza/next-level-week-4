@@ -117,18 +117,27 @@ O servidor ficará ouvindo requisições na URL: `http://localhost:3333/`
 * **Criar um novo usuário**.    
     - URL: `http://localhost:3333/users`.
     - Verbo HTTP: `POST`.
-    - Body HTTP:
-        ```json
+    - Corpo HTTP:
+        ```json        
         {
-            "email": "user_example@test.com.br",
-            "name": "User example create"
+            "name": "User example create",
+            "email": "user_example@test.com.br"           
         }
         ```
     - EndPoint:
-    ```typescript
+        ```typescript
+        router.post("/users", userController.create);
+        ```
+    - Tipo de resposta:
+        ```json
+        {
+            "id": "7baeed55-554a-44ec-8a27-9d131542dbad",
+            "name": "User example create",
+            "email": "user_example@test.com.br",
+            "created_at": "2021-02-06T15:18:13.000Z"
+        }
 
-    router.post("/users", userController.create);
-    ```
+        ```
 
 ```typescript
 // Criar uma nova pesquisa
