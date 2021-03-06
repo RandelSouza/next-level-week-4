@@ -111,6 +111,15 @@ ___
 Fonte: [https://www.dds.com.br/blog/index.php/entenda-importancia-nps-para-sua-empresa/](https://www.dds.com.br/blog/index.php/entenda-importancia-nps-para-sua-empresa/). Acessado em 04/03/2021.
 
 ## :nut_and_bolt: Funcionalidades
+```typescript
+router.post("/users", userController.create);
+router.post("/surveys", surveyController.create);
+router.get("/surveys", surveyController.show);
+router.post("/sendMail", sendEmailController.execute);
+router.get("/answers/:value", answerController.execute);
+router.get("/nps/:survey_id", npsController.execute); 
+```
+
 ## :computer: Testando a API
 ## :arrow_forward: Como Rodar
 ## :eight_spoked_asterisk: Considerações Finais
