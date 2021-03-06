@@ -111,6 +111,12 @@ ___
 Fonte: [https://www.dds.com.br/blog/index.php/entenda-importancia-nps-para-sua-empresa/](https://www.dds.com.br/blog/index.php/entenda-importancia-nps-para-sua-empresa/). Acessado em 04/03/2021.
 
 ## :nut_and_bolt: Funcionalidades
+
+O servidor ficará ouvindo requisições na URL: 
+```shell
+http://localhost:3333/
+```
+
 ```typescript
 // Criar um novo usuário
 router.post("/users", userController.create);
