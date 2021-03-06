@@ -103,10 +103,10 @@ ___
         <br/>
     
     - Zona de classificação do NPS:
-        - Excelência: pontuação entre 75% e 100% :trophy:.
-        - Qualidade: pontuação entre 50% e 74% :tada:.
-        - Aperfeiçoameto: pontuação entre 0% e 49% :wrench:.
-        - Critica: pontuação entre -100% e -1% :chart_with_downwards_trend:.
+        - **Excelência**: pontuação entre **75%** e **100%** :trophy:.
+        - **Qualidade**: pontuação entre **50%** e **74%** :tada:.
+        - **Aperfeiçoameto**: pontuação entre **0%** e **49%** :wrench:.
+        - **Critica**: pontuação entre **-100%** e **-1%** :chart_with_downwards_trend:.
 
 Fonte: [https://www.dds.com.br/blog/index.php/entenda-importancia-nps-para-sua-empresa/](https://www.dds.com.br/blog/index.php/entenda-importancia-nps-para-sua-empresa/). Acessado em 04/03/2021.
 
