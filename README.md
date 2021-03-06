@@ -114,17 +114,17 @@ Fonte: [https://www.dds.com.br/blog/index.php/entenda-importancia-nps-para-sua-e
 
 O servidor ficará ouvindo requisições na URL: `http://localhost:3333/`
 
-* **Criar um novo usuário**.
-    URL: `http://localhost:3333/users`.
-    Verbo HTTP: `POST`.
-    Body HTTP:
-    ```json
-    {
-        "email": "user_example@test.com.br",
-        "name": "User example create"
-    }
-    ```
-
+* **Criar um novo usuário**.    
+    - URL: `http://localhost:3333/users`.
+    - Verbo HTTP: `POST`.
+    - Body HTTP:
+        ```json
+        {
+            "email": "user_example@test.com.br",
+            "name": "User example create"
+        }
+        ```
+    - EndPoint:
     ```typescript
 
     router.post("/users", userController.create);
