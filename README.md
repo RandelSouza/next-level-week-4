@@ -128,7 +128,7 @@ O servidor ficará ouvindo requisições na URL: `http://localhost:3333/`
         ```typescript
         router.post("/users", userController.create);
         ```
-    - Tipo de resposta:
+    - Resposta:
         ```yaml
         {
             "id": "7baeed55-554a-44ec-8a27-9d131542dca11",
@@ -155,7 +155,7 @@ O servidor ficará ouvindo requisições na URL: `http://localhost:3333/`
         router.post("/surveys", surveyController.create);
         ```
 
-    - Tipo de resposta:
+    - Resposta:
         ```yaml
        {
             "id": "f58bd1f0-3a06-44a0-87fb-34d137030676",
@@ -164,14 +164,54 @@ O servidor ficará ouvindo requisições na URL: `http://localhost:3333/`
             "created_at": "2021-03-06T15:35:23.000Z"
         }
         ```
+
 * **Mostrar as pesquisas criadas**.
-    ```typescript
-    router.get("/surveys", surveyController.show);
+    - URL: `http://localhost:3333/users`.
+    - Verbo HTTP: `GET`.
+
+    - EndPoint:  
+        ```typescript
+        router.get("/surveys", surveyController.show);    
+        ```
+    
+    - Resposta:
+    ```yaml
+    [
+        {
+            "id": "f58bd1f0-3a06-44a0-87fb-34d137030676",
+            "title": "Pesquisa de opinião",
+            "description": "De 0 a 10 quanto você recomendaria a Rocketseat para um amigo?",
+            "created_at": "2021-03-06T15:35:23.000Z"
+        }
+    ]
     ```
+
 * **Enviar email para um determinado usuário**.
-    ```typescript     
-    router.post("/sendMail", sendEmailController.execute);
-    ```
+    - URL: `http://localhost:3333/sendMail`.
+    - Verbo HTTP: `POST`.
+    - Corpo HTTP:
+        ```yaml
+        {  
+            "email": "user_example@test.com.br",
+            "survey_id": "f58bd1f0-3a06-44a0-87fb-34d137030676"
+        }
+        ```
+
+    - EndPoint:  
+        ```typescript     
+        router.post("/sendMail", sendEmailController.execute);
+        ```
+
+    - Resposta:    
+        ```yaml
+        {
+            "id": "653badbb-8294-45d0-851b-253561d54efa",
+            "user_id": "7baeed55-554a-44ec-8a27-9d131542dca11",
+            "survey_id": "f58bd1f0-3a06-44a0-87fb-34d137030676",
+            "created_at": "2021-03-06T17:41:39.000Z"
+        }
+        ```
+
 * **Cadastrar nota do usuário**.    
     ```typescript
     router.get("/answers/:value", answerController.execute);
