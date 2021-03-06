@@ -212,14 +212,45 @@ O servidor ficará ouvindo requisições na URL: `http://localhost:3333/`
         }
         ```
 
-* **Cadastrar nota do usuário**.    
-    ```typescript
-    router.get("/answers/:value", answerController.execute);
-    ```
+* **Cadastrar nota do usuário**.     
+    - URL: `http://localhost:3333/answers/${nota}?u=${survey_user_id}`.
+        - Exemplo: `http://localhost:3333/answers/10?u=653badbb-8294-45d0-851b-253561d54efa`
+    - Verbo HTTP: `GET`.   
+
+     - EndPoint: 
+        ```typescript
+        router.get("/answers/:value", answerController.execute);
+        ```
+      - Resposta: 
+      ```yaml
+        {
+            "id": "653badbb-8294-45d0-851b-253561d54efa",
+            "user_id": "532040d6-527b-43ca-8a0e-3c28a126472e",
+            "survey_id": "6ef98252-cd36-466e-876e-17722479ff55",
+            "value": 10,
+            "created_at": "2021-03-06T17:41:39.000Z"
+        }
+      ```
+
 * **Calcular o NPS de uma determinada pesquisa**.  
-    ```typescript
-    router.get("/nps/:survey_id", npsController.execute); 
-    ```
+    - URL: .`localhost:3333/nps/${survey_id}`
+        - Exemplo: `localhost:3333/nps/f58bd1f0-3a06-44a0-87fb-34d137030676`.
+    - Verbo HTTP: `GET`.
+
+     - EndPoint: 
+        ```typescript
+        router.get("/nps/:survey_id", npsController.execute); 
+        ```
+    - Resposta:
+        ```yaml
+        {
+            "detractors": 0,
+            "promoters": 1,
+            "passive": 0,
+            "totalAnswer": 1,
+            "nps": 100.00
+        }
+        ```    
 
 ## :computer: Testando a API
 ## :arrow_forward: Como Rodar
