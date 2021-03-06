@@ -112,11 +112,22 @@ Fonte: [https://www.dds.com.br/blog/index.php/entenda-importancia-nps-para-sua-e
 
 ## :nut_and_bolt: Funcionalidades
 ```typescript
+// Criar um novo usuário
 router.post("/users", userController.create);
+
+// Criar uma nova pesquisa
 router.post("/surveys", surveyController.create);
+
+// Mostrar as pesquisas criadas
 router.get("/surveys", surveyController.show);
+
+// Enviar email para um determinado usuário
 router.post("/sendMail", sendEmailController.execute);
+
+//
 router.get("/answers/:value", answerController.execute);
+
+// Calcular o NPS de uma determinada pesquisa
 router.get("/nps/:survey_id", npsController.execute); 
 ```
 
