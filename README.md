@@ -87,12 +87,12 @@ ___
     <br/>
 
 <!--img src="https://render.githubusercontent.com/render/math?math=e^{i %2B\pi} =x%2B1"-->
-* Cálculo do NPS: 
-    - Onde:
-        - detratores = total de clientes que deram notas de 0-6.    
-        - neutros = total de clientes que deram notas de 7-8.   
-        - promotores = total de clientes que deram notas de 9-10.
-        - respondentes = detratores + neutros + promotores.
+* **Cálculo do NPS**: 
+    - **Onde**:
+        - **detratores** = total de clientes que deram notas de **0-6**.    
+        - **neutros** = total de clientes que deram notas de **7-8**.   
+        - **promotores** = total de clientes que deram notas de **9-10**.
+        - **respondentes** = **detratores + neutros + promotores**.
 
         Obs.: Os neutros não entram diretamente no cálculo, somente para o total de respondentes.
         
@@ -102,7 +102,7 @@ ___
 
         <br/>
     
-    - Zona de classificação do NPS:
+    - **Zona de classificação do NPS**:
         - **Excelência**: pontuação entre **75%** e **100%** :trophy:.
         - **Qualidade**: pontuação entre **50%** e **74%** :tada:.
         - **Aperfeiçoameto**: pontuação entre **0%** e **49%** :wrench:.
