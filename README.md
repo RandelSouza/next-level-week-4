@@ -140,9 +140,30 @@ O servidor ficará ouvindo requisições na URL: `http://localhost:3333/`
         ```
 
 * **Criar uma nova pesquisa**.
-    ```typescript
-    router.post("/surveys", surveyController.create);
-    ```
+    - URL: `http://localhost:3333/surveys`.
+    - Verbo HTTP: `POST`.
+    - Corpo HTTP:
+         ```json        
+        {
+            "title": "Pesquisa de opinião!",
+            "description": "De 0 a 10 quanto você recomendaria a Rocketseat para um amigo?"
+        }          
+        ```    
+    
+    - EndPoint:    
+        ```typescript
+        router.post("/surveys", surveyController.create);
+        ```
+
+    - Tipo de resposta:
+        ```json
+       {
+            "id": "f58bd1f0-3a06-44a0-87fb-34d137030676",
+            "title": "Pesquisa de opinião",
+            "description": "De 0 a 10 quanto você recomendaria a Rocketseat para um amigo?",
+            "created_at": "2021-03-06T15:35:23.000Z"
+        }
+        ```
 * **Mostrar as pesquisas criadas**.
     ```typescript
     router.get("/surveys", surveyController.show);
