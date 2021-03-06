@@ -88,9 +88,17 @@ ___
 
 <!--img src="https://render.githubusercontent.com/render/math?math=e^{i %2B\pi} =x%2B1"-->
 * Calculo do NPS: 
-    <br/>
-    
-    <img src="https://render.githubusercontent.com/render/math?math=\huge\frac{(promotores%20-%20detratores)}{respondentes}x100">
+    - Onde:
+        - detratores = total de clientes que deram notas de 0-6.    
+        - neutros = total de clientes que deram notas de 7-8.   
+        - promotores = total de clientes que deram notas de 9-10.
+        - respondentes = detratores + neutros + promotores.
+
+        Obs.: Os neutros não entram diretamente no calculo, somente para o total de respondentes.
+        
+         <br/>
+
+        <img src="https://render.githubusercontent.com/render/math?math=\huge\frac{(promotores%20-%20detratores)}{respondentes}x100">
 
 Fonte: [https://www.dds.com.br/blog/index.php/entenda-importancia-nps-para-sua-empresa/](https://www.dds.com.br/blog/index.php/entenda-importancia-nps-para-sua-empresa/). Acessado em 04/03/2021.
 
