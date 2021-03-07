@@ -281,3 +281,17 @@ autorais com o código.
 
 * **Proibido**
     - :heavy_multiplication_x: Responsabilidade Assegurada: O software é fornecido sem garantia e o autor/licença do software não pode ser responsabilizado por perdas e danos.
+
+---
+
+<p align="center" >
+ • <a href="#black_nib-descrição-do-projeto">Descrição do Projeto</a> •
+ <a href="#nut_and_bolt-funcionalidades">Funcionalidades</a> •
+ <a href="#computer-testando-a-api">Testando a API</a> • 
+ <a href="#arrow_forward-como-rodar">Como Rodar</a> • 
+ <a href="#eight_spoked_asterisk-considerações-finais">Considerações Finais</a> • 
+ <a href="#mag_right-autor">Autor</a> • 
+ <a href="#copyright-licença">Licença</a>
+</p>
+
+---
