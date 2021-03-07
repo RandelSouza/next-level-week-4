@@ -257,7 +257,7 @@ O servidor ficará ouvindo requisições na URL: `http://localhost:3333/`
 
 
 ## :arrow_forward: Como Rodar
-```bash
+```yaml
 # Instalar as depêndencias
 npm install
 
