@@ -254,7 +254,21 @@ O servidor ficará ouvindo requisições na URL: `http://localhost:3333/`
         ```    
 
 ## :computer: Testando a API
+
+
 ## :arrow_forward: Como Rodar
+```bash
+# Instalar as depêndencias
+npm install
+
+# Rodar os testes
+npm run test
+
+# Rodar o projeto
+npm run dev
+
+```
+
 ## :eight_spoked_asterisk: Considerações Finais
 ## :mag_right: Autor
 
