@@ -140,7 +140,7 @@ O servidor ficará ouvindo requisições na URL: `http://localhost:3333/`
         ```
 
 * **Criar uma nova pesquisa**.
-    - URL: `http://localhost:3333/surveys`.
+    - **URL**: `http://localhost:3333/surveys`.
     - Verbo HTTP: `POST`.
     - Corpo HTTP:
          ```yaml        
