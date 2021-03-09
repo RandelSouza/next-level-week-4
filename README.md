@@ -166,15 +166,15 @@ O servidor ficará ouvindo requisições na URL: `http://localhost:3333/`
         ```
 
 * **Mostrar as pesquisas criadas**.
-    - URL: `http://localhost:3333/users`.
-    - Verbo HTTP: `GET`.
+    - **URL**: `http://localhost:3333/users`.
+    - **Verbo HTTP**: `GET`.
 
-    - EndPoint:  
+    - **EndPoint**:  
         ```typescript
         router.get("/surveys", surveyController.show);    
         ```
     
-    - Resposta:
+    - **Resposta**:
     ```yaml
     [
         {
