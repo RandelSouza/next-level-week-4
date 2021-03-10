@@ -187,9 +187,9 @@ O servidor ficará ouvindo requisições na URL: `http://localhost:3333/`
     ```
 
 * **Enviar email para um determinado usuário**.
-    - URL: `http://localhost:3333/sendMail`.
-    - Verbo HTTP: `POST`.
-    - Corpo HTTP:
+    - **URL**: `http://localhost:3333/sendMail`.
+    - **Verbo HTTP**: `POST`.
+    - **Corpo HTTP**:
         ```yaml
         {  
             "email": "user_example@test.com.br",
@@ -197,12 +197,12 @@ O servidor ficará ouvindo requisições na URL: `http://localhost:3333/`
         }
         ```
 
-    - EndPoint:  
+    - **EndPoint**:  
         ```typescript     
         router.post("/sendMail", sendEmailController.execute);
         ```
 
-    - Resposta:    
+    - **Resposta**:    
         ```yaml
         {
             "id": "653badbb-8294-45d0-851b-253561d54efa",
