@@ -27,15 +27,30 @@ class NpsController{
 
         const totalAnswer = surveysUsers.length;
         const calculate = Number((((promoters - detractors) / totalAnswer) * 100).toFixed(2));
+    
+        var classification: String;
+
+        if(calculate >= -100 && calculate <= -1){
+            classification = "Critical";
+        }
+        else if(calculate >= 0 && calculate <= 49){
+            classification = "Improvement";
+        }
+        else if(calculate >= 50 && calculate <= 74){
+            classification = "Quality";
+        }else{                        
+            classification ="Excellence";
+        }   
 
         return response.json({
             detractors,
             promoters,
             passive,
             totalAnswer,
-            nps: calculate
+            nps: calculate,
+            classificationZone: classification
         });
-    }
+    }    
 
 }
 
