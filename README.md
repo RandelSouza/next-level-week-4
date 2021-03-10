@@ -141,8 +141,8 @@ O servidor ficará ouvindo requisições na URL: `http://localhost:3333/`
 
 * **Criar uma nova pesquisa**.
     - **URL**: `http://localhost:3333/surveys`.
-    - Verbo HTTP: `POST`.
-    - Corpo HTTP:
+    - **Verbo HTTP**: `POST`.
+    - **Corpo HTTP**:
          ```yaml        
         {
             "title": "Pesquisa de opinião!",
@@ -150,12 +150,12 @@ O servidor ficará ouvindo requisições na URL: `http://localhost:3333/`
         }          
         ```    
     
-    - EndPoint:    
+    - **EndPoint**:    
         ```typescript
         router.post("/surveys", surveyController.create);
         ```
 
-    - Resposta:
+    - **Resposta**:
         ```yaml
        {
             "id": "f58bd1f0-3a06-44a0-87fb-34d137030676",
