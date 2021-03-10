@@ -34,7 +34,6 @@ class NpsController{
             passive,
             totalAnswer,
             nps: calculate
-
         });
     }
 
