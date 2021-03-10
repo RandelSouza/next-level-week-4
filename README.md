@@ -115,20 +115,20 @@ Fonte: [https://www.dds.com.br/blog/index.php/entenda-importancia-nps-para-sua-e
 O servidor ficará ouvindo requisições na URL: `http://localhost:3333/`
 
 * **Criar um novo usuário**.    
-    - URL: `http://localhost:3333/users`.
-    - Verbo HTTP: `POST`.
-    - Corpo HTTP:
+    - **URL**: `http://localhost:3333/users`.
+    - **Verbo HTTP**: `POST`.
+    - **Corpo HTTP**:
         ```yaml        
         {
             "name": "User example create",
             "email": "user_example@test.com.br"           
         }
         ```
-    - EndPoint:
+    - **EndPoint**:
         ```typescript
         router.post("/users", userController.create);
         ```
-    - Resposta:
+    - **Resposta**:
         ```yaml
         {
             "id": "7baeed55-554a-44ec-8a27-9d131542dca11",
@@ -270,6 +270,7 @@ npm run dev
 ```
 
 ## :eight_spoked_asterisk: Considerações Finais
+
 ## :mag_right: Autor
 
 <p>
