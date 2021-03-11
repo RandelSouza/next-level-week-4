@@ -213,16 +213,16 @@ O servidor ficará ouvindo requisições na URL: `http://localhost:3333/`
         ```
 
 * **Cadastrar nota do usuário**.     
-    - URL: `http://localhost:3333/answers/${nota}?u=${survey_user_id}`.
+    - **URL**: `http://localhost:3333/answers/${nota}?u=${survey_user_id}`.
         - Exemplo: `http://localhost:3333/answers/10?u=653badbb-8294-45d0-851b-253561d54efa`.
-    - Verbo HTTP: `GET`.   
+    - **Verbo HTTP**: `GET`.   
 
-     - EndPoint:      
+     - **EndPoint**:      
         ```typescript
         router.get("/answers/:value", answerController.execute);
         ```
 
-    - Resposta: 
+    - **Resposta**: 
         ```yaml
         {
             "id": "653badbb-8294-45d0-851b-253561d54efa",
