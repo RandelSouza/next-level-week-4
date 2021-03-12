@@ -234,15 +234,15 @@ O servidor ficará ouvindo requisições na URL: `http://localhost:3333/`
         ```
 
 * **Calcular o NPS de uma determinada pesquisa**.  
-    - URL: .`localhost:3333/nps/${survey_id}`
-        - Exemplo: `localhost:3333/nps/f58bd1f0-3a06-44a0-87fb-34d137030676`.
-    - Verbo HTTP: `GET`.
+    - **URL**: .`localhost:3333/nps/${survey_id}`
+        - **Exemplo**: `localhost:3333/nps/f58bd1f0-3a06-44a0-87fb-34d137030676`.
+    - **Verbo HTTP**: `GET`.
 
-     - EndPoint: 
+     - **EndPoint**: 
         ```typescript
         router.get("/nps/:survey_id", npsController.execute); 
         ```
-    - Resposta:
+    - **Resposta**:
         ```yaml
         {
             "detractors": 0,
