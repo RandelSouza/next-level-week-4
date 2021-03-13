@@ -3,6 +3,7 @@ import { getCustomRepository, Not, IsNull } from 'typeorm';
 import { SurveysUsersRepository } from "../repositories/SurveysUsersRepository";
 
 class NpsController{
+    
     async execute(request: Request, response: Response){
         const { survey_id } = request.params;
 
@@ -26,31 +27,33 @@ class NpsController{
         ).length;
 
         const totalAnswer = surveysUsers.length;
-        const calculate = Number((((promoters - detractors) / totalAnswer) * 100).toFixed(2));
-    
-        var classification: String;
-
+        const calculate = Number((((promoters - detractors) / totalAnswer) * 100).toFixed(2));            
+        
+        
+        let zone: String = "Excellence";
+        
         if(calculate >= -100 && calculate <= -1){
-            classification = "Critical";
+            zone = "Critical";
         }
-        else if(calculate >= 0 && calculate <= 49){
-            classification = "Improvement";
-        }
-        else if(calculate >= 50 && calculate <= 74){
-            classification = "Quality";
-        }else{                        
-            classification ="Excellence";
-        }   
 
+        else if(calculate >= 0 && calculate <= 49){
+            zone = "Improvement";
+        }
+
+        else if(calculate >= 50 && calculate <= 74){
+            zone = "Quality";
+        }
+
+        
         return response.json({
             detractors,
             promoters,
             passive,
             totalAnswer,
             nps: calculate,
-            classificationZone: classification
-        });
-    }    
+            classificationZone: zone
+        });        
+    }  
 
 }
 

@@ -11,7 +11,6 @@ class UserController {
         const schema = yup.object().shape({
             name: yup.string().required(),
             email: yup.string().email().required()
-
         });      
 
         try{
@@ -29,7 +28,7 @@ class UserController {
         const userAlreadyExists = await usersRepository.findOne( { email } );
 
         if(userAlreadyExists){
-            throw new AppError("User Alright Existis!");            
+            throw new AppError("User Alright Exists!");            
         }
 
         const user = usersRepository.create({
