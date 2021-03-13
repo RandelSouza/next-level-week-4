@@ -5,6 +5,7 @@ import AppError from '../errors/AppError';
 import { UsersRepository } from '../repositories/UsersRepository';
 
 class UserController {
+    
     async create(request: Request, response: Response){
         const { name, email } = request.body;
         
@@ -20,7 +21,6 @@ class UserController {
             throw new AppError(error);           
         }
         
-
         const usersRepository = getCustomRepository(UsersRepository);
 
         const userAlreadyExists = await usersRepository.findOne( { email } );
@@ -37,6 +37,15 @@ class UserController {
 
         return response.status(201).json(user);
     }
+
+    async show(request: Request, response: Response){
+        const usersRepository = getCustomRepository(UsersRepository);
+
+        const allUsers = await usersRepository.find();
+
+        return response.json(allUsers);
+    }
+    
 }
 
 export { UserController };
