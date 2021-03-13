@@ -31,5 +31,13 @@ describe("Users", () => {
         });
 
         expect(response.status).toBe(400);
-    });    
+    }); 
+
+
+    it("Should be able to show all users.", async () => {
+        const response = await request(app).get("/users");
+
+        expect(response.status).toBe(200);
+    });  
+
 });
