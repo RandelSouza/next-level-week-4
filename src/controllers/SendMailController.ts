@@ -68,7 +68,12 @@ class SendMailController {
 
         await SendMailService.execute(email, survey.title, npsPath, variables);
 
-        return response.status(201).json(surveyUser);
+        const surveyUserNew = await surveysUsersRepository.findOne({
+            where: {user_id: user.id, value: null},
+            relations: ["user", "survey"]
+        });
+
+        return response.status(201).json(surveyUserNew);
 
     }
 }
