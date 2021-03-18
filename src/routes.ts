@@ -1,7 +1,6 @@
 import { Router } from 'express';
 import { AnswerController } from './controllers/AnswerController';
 import { NpsController } from './controllers/NpsController';
-import { People } from './controllers/People';
 import { SendMailController } from './controllers/SendMailController';
 import { SurveyController } from './controllers/SurveysController';
 import { UserController } from './controllers/UserController';
@@ -12,11 +11,9 @@ const surveyController = new SurveyController();
 const sendEmailController = new SendMailController();
 const answerController = new AnswerController();
 const npsController = new NpsController();
-const people = new People("Mary",  24);
 
 router.post("/users", userController.create);
 router.get("/users", userController.show);
-router.get("/mary", people.walk);
 
 router.post("/surveys", surveyController.create);
 router.get("/surveys", surveyController.show);
