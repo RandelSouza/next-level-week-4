@@ -46,6 +46,29 @@ class UserController {
 
         return response.json(allUsers);
     }
+
+    async update(request: Request, response: Response){
+        const { name, email } = request.body;
+        const { user_id } = request.params;
+
+        const usersRepository = getCustomRepository(UsersRepository);
+        
+        console.log(name, email, user_id);
+        
+        await usersRepository.update(
+            String(user_id),
+            {
+                name: name,
+                email: email
+            }
+        );
+
+        const userUpdated = await usersRepository.findOne({
+            id: String(user_id)
+        });
+
+        return response.json(userUpdated);
+    }
        
 }
 
