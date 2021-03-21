@@ -5,6 +5,7 @@ import AppError from '../errors/AppError';
 import { UsersRepository } from '../repositories/UsersRepository';
 
 class UserController {
+    test: string = "test";
 
     async create(request: Request, response: Response){
 
@@ -53,7 +54,13 @@ class UserController {
 
         const usersRepository = getCustomRepository(UsersRepository);
         
-        console.log(name, email, user_id);
+        const userAlreadyExists = await usersRepository.findOne({
+             id: String(user_id) 
+        });
+
+        if(!userAlreadyExists){
+            throw new AppError("User Not Exists!");
+        }
         
         await usersRepository.update(
             String(user_id),
@@ -67,6 +74,8 @@ class UserController {
             id: String(user_id)
         });
 
+        console.log(this.test);
+        
         return response.json(userUpdated);
     }
        

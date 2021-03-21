@@ -1,3 +1,4 @@
+import { Request, Response } from 'express';
 import { Router } from 'express';
 import { AnswerController } from './controllers/AnswerController';
 import { NpsController } from './controllers/NpsController';
@@ -7,6 +8,7 @@ import { UserController } from './controllers/UserController';
 
 const router = Router();
 const userController = new UserController();
+
 const surveyController = new SurveyController();
 const sendEmailController = new SendMailController();
 const answerController = new AnswerController();
@@ -14,7 +16,8 @@ const npsController = new NpsController();
 
 router.post("/users", userController.create);
 router.get("/users", userController.show);
-router.put("/users/:user_id", userController.update);
+
+router.put("/users/:user_id", (request: Request, response: Response) => userController.update(request, response));
 
 router.post("/surveys", surveyController.create);
 router.get("/surveys", surveyController.show);
