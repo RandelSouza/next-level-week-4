@@ -55,7 +55,7 @@ class UserController {
         const usersRepository = getCustomRepository(UsersRepository);
         
         const userAlreadyExists = await usersRepository.findOne({
-             id: String(user_id) 
+             id: user_id
         });
 
         if(!userAlreadyExists){
@@ -63,7 +63,7 @@ class UserController {
         }
         
         await usersRepository.update(
-            String(user_id),
+            user_id,
             {
                 name: name,
                 email: email
@@ -71,12 +71,22 @@ class UserController {
         );
 
         const userUpdated = await usersRepository.findOne({
-            id: String(user_id)
+            id: user_id
         });
 
         console.log(this.test);
         
         return response.json(userUpdated);
+    }
+
+    async delete(request: Request, response: Response){
+        const { user_id } = request.params;
+
+        const usersRepository = getCustomRepository(UsersRepository);
+
+       const userDeleted = await usersRepository.delete({ id: user_id });
+
+       response.json(userDeleted);
     }
        
 }
