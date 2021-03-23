@@ -84,9 +84,9 @@ class UserController {
 
         const usersRepository = getCustomRepository(UsersRepository);
 
-       const userDeleted = await usersRepository.delete({ id: user_id });
+        const userDeleted = await usersRepository.delete({ id: user_id });
 
-       response.json(userDeleted);
+        response.json(userDeleted.affected);
     }
        
 }
