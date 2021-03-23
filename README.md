@@ -139,6 +139,9 @@ O servidor ficará ouvindo requisições na URL: `http://localhost:3333/`
 
         ```
 
+
+* **Atualizar o Usuário**
+
 * **Criar uma nova pesquisa**.
     - **URL**: `http://localhost:3333/surveys`.
     - **Verbo HTTP**: `POST`.
