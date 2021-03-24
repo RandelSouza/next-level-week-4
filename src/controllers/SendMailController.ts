@@ -17,7 +17,7 @@ class SendMailController {
         const user = await usersRepository.findOne({ email });
 
         if(!user){
-            throw new AppError("User does not exists!");            
+            throw new AppError("User does not exists!");          
         }
         
         const survey = await surveysRepository.findOne( { id: survey_id });
