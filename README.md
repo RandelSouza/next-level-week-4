@@ -141,7 +141,14 @@ O servidor ficará ouvindo requisições na URL: `http://localhost:3333/`
 
 * **Atualizar o Usuário**
     - **URL**: `http://localhost:3333/users/${user_id}`.
-    - **Verbo HTTP**: `PUT`.    
+    - **Verbo HTTP**: `PUT`
+    - **Corpo HTTP**:
+         ```yaml        
+            {
+                "name": "User example update",
+                "email": "user_example@test.com.br"
+            }     
+        ```    
 
 * **Criar uma nova pesquisa**.
     - **URL**: `http://localhost:3333/surveys`.
