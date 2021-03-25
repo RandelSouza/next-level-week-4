@@ -187,8 +187,8 @@ O servidor ficará ouvindo requisições na URL: `http://localhost:3333/`
     ```
 
 * **Deletar Usuário**
- - **URL**: `http://localhost:3333/users/${user_id}`.
-        - **Exemplo**: `http://localhost:3333/users/7baeed55-554a-44ec-8a27-9d131542dca11`.
+ - **URL**: `http://localhost:3333/users/${user_id}`.    
+    - **Exemplo**: `http://localhost:3333/users/7baeed55-554a-44ec-8a27-9d131542dca11`.
     - **Verbo HTTP**: `DELETE`
 
 * **Criar uma nova pesquisa**.
