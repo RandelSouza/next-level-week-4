@@ -148,7 +148,12 @@ O servidor ficará ouvindo requisições na URL: `http://localhost:3333/`
                 "name": "User example update",
                 "email": "user_example@test.com.br"
             }     
-        ```    
+        ```  
+
+    - **EndPoint**:    
+        ```typescript
+        router.put("/users/:user_id", (request: Request, response: Response) => userController.update(request, response));
+        ``` 
 
 * **Criar uma nova pesquisa**.
     - **URL**: `http://localhost:3333/surveys`.
