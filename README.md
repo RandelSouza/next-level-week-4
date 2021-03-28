@@ -138,6 +138,27 @@ O servidor ficará ouvindo requisições na URL: `http://localhost:3333/`
         }
 
         ```
+* **Listar todos os Usuários**
+    - **URL**: `http://localhost:3333/users`.
+    - **Verbo HTTP**: `GET`.
+
+    - **EndPoint**:  
+        ```typescript
+            router.get("/users", userController.show);
+        ```
+
+     - **Resposta**:
+    ```yaml
+        [
+            {
+                "id": "7baeed55-554a-44ec-8a27-9d131542dca11",
+                "name": "User example create",
+                "email": "user_example@test.com.br",
+                "created_at": "2021-02-06T15:18:13.000Z"            
+            }
+        ]
+    ```
+    
 
 * **Atualizar o Usuário**
     - **URL**: `http://localhost:3333/users/${user_id}`.
