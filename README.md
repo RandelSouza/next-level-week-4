@@ -114,7 +114,7 @@ Fonte: [https://www.dds.com.br/blog/index.php/entenda-importancia-nps-para-sua-e
 
 O servidor ficará ouvindo requisições na URL: `http://localhost:3333/`
 
-* **Criar um novo usuário**.    
+* **Criar Usuário**.
     - **URL**: `http://localhost:3333/users`.
     - **Verbo HTTP**: `POST`.
     - **Corpo HTTP**:
@@ -138,7 +138,7 @@ O servidor ficará ouvindo requisições na URL: `http://localhost:3333/`
         }
 
         ```
-* **Listar todos os Usuários**
+* **Listar Usuários**
     - **URL**: `http://localhost:3333/users`.
     - **Verbo HTTP**: `GET`.
 
@@ -160,7 +160,7 @@ O servidor ficará ouvindo requisições na URL: `http://localhost:3333/`
     ```
     
 
-* **Atualizar o Usuário**
+* **Atualizar Usuário**
     - **URL**: `http://localhost:3333/users/${user_id}`.
         - **Exemplo**: `http://localhost:3333/users/7baeed55-554a-44ec-8a27-9d131542dca11`.
     - **Verbo HTTP**: `PUT`
@@ -185,6 +185,11 @@ O servidor ficará ouvindo requisições na URL: `http://localhost:3333/`
             "created_at": "2021-02-26T18:13:03.000Z"
         }
     ```
+
+* **Deletar Usuário**
+ - **URL**: `http://localhost:3333/users/${user_id}`.
+        - **Exemplo**: `http://localhost:3333/users/7baeed55-554a-44ec-8a27-9d131542dca11`.
+    - **Verbo HTTP**: `DELETE`
 
 * **Criar uma nova pesquisa**.
     - **URL**: `http://localhost:3333/surveys`.
